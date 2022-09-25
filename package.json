@@ -1,12 +1,11 @@
 {
-  "homepage": "https://ajinkya-b.github.io",
+  "homepage": "https://ajinkya-b.github.io/website",
   "name": "resume",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.4",
     "bootstrap": "^5.2.1",
-    "gh-pages": "^4.0.0",
     "react": "^16.6.0",
     "react-bootstrap": "^2.5.0",
     "react-dom": "^16.6.0",
@@ -16,6 +15,8 @@
     "tsparticles": "^2.3.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -29,5 +30,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }

@@ -3,8 +3,8 @@ export default class Porfolio extends Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
-      <section id="portfolio" style={{display: "flex", alignItems:"center"}}>
-      <div className="row">
+      <section id="portfolio">
+      <div className="row" style={{display: "flex", alignItems:"center"}}>
         <div className="twelve columns collapsed">
           <h1>Check Out Some of My Works.</h1>
           <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">

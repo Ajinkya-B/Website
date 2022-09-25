@@ -5,7 +5,7 @@ export default class About extends Component {
     let resumeData = this.props.resumeData;
     return (
       <section id="about" style={{display: "flex", alignItems:"center", position: "relative"}}>
-         <p style={{position: "absolute", top: "250px", left:"800px", font: "Roboto", fontSize:"15vw", 
+         <p style={{position: "absolute", top: "20vh", left:"40vw", font: "Roboto", fontSize:"15vw", 
          fontWeight:"600", textShadow:"20px 20px 0 rgb(0 0 0 / 20%)", opacity: 0.72, color:"#616161"}}>About</p>
          <div className="row">
 

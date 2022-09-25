@@ -16,7 +16,7 @@ export default class ContactUs extends Component {
           <div className="row">
             <aside className="eigth columns footer-widgets">
               <div className="widget">
-                <h5>You can see more awesome projects on GitHub. Send me a message if you want to chat.</h5>
+                <h5 style={{color:"#ebeeee"}}>You can see more awesome projects on GitHub. Send me a message if you want to chat.</h5>
               </div>
             </aside>
           </div>

@@ -6,21 +6,23 @@ import Toolstack from "./Toolstack";
 
 function Skills() {
   return (
-    <Container fluid className="about-section">
-      <Particle />
-      <Container>
-        <h1 className="project-heading" style={{textAlign:"center"}}>
-          Professional Skillset
-        </h1>
+    <section id="skills">
+      <Container fluid className="about-section">
+        <Particle />
+        <Container>
+          <h1 className="project-heading" style={{textAlign:"center", color:"white"}}>
+            Professional Skillset
+          </h1>
 
-        <Techstack />
+          <Techstack />
 
-        <h1 className="project-heading" style={{textAlign:"center"}}>
-          Tools I use
-        </h1>
-        <Toolstack />
+          <h1 className="project-heading" style={{textAlign:"center", color:"white"}}>
+            Tools I use
+          </h1>
+          <Toolstack />
+        </Container>
       </Container>
-    </Container>
+    </section>
   );
 }
 

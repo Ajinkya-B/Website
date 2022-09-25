@@ -59,6 +59,20 @@ let resumeData = {
         "Achievements":"• Designed and developed a mobile application using JavaScript, React Native, and Galio, which provides quick access to sales reports for all the client-owned businesses \n• Reported over 20 critical bugs by creating clear and detailed repro steps on Microsoft Azure scrum board \n• Coordinated closely with the supervisor to recommend and test new features for the HIPPOS Restaurant and CloudSync application".split('\n').map(str => <p style={{marginBottom:"0"}}>{str}</p>)
       }
     ],
+    "certifications":[
+      {
+        "Course":"Data Structures & Algorithms in Python",
+        "Organization":"Udemy",
+      },
+      {
+        "Course":"Introduction to Machine Learning",
+        "Organization":"Duke University, Coursera",
+      },
+      {
+        "Course":"Data Science Math Skills",
+        "Organization":" Duke University, Coursera",
+      }
+    ],
     "skillsDescription":"Your skills here",
     "skills":[
       {
